@@ -9,6 +9,6 @@ public class TestProject
 
         test.setDescription("A butler");
 
-        test.elevatorPitch();
+        System.out.print(test.elevatorPitch());
     }
 }

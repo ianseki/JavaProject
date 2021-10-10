@@ -39,8 +39,8 @@ public class Project
         this.description = description;
     }
 
-    public void elevatorPitch()
+    public String elevatorPitch()
     {
-        System.out.print(this.name + " : " + this.description);
+        return name + " : " + description;
     }
 }
